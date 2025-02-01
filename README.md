@@ -131,12 +131,11 @@ subscription {
 ```
 
 ## How It Works
-React (Frontend):
-
+### React (Frontend):
 Uses Apollo Client to send queries and mutations.
 Implements subscriptions to receive real-time updates when tasks are added to the server.
-NestJS (Backend):
 
+### NestJS (Backend):
 Provides a GraphQL API with queries, mutations, and subscriptions.
 When a task is created, the backend triggers a taskAdded.
 
