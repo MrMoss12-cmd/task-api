@@ -7,4 +7,7 @@ export class CreateTaskInput {
 
     @Field()
     priority: string;
+
+    @Field({ defaultValue: false })
+    completed: boolean;
 }
